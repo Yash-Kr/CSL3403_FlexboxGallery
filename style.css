@@ -96,6 +96,18 @@ img:hover{
 
 @media (max-width: 600px) {
   
+  html{
+    font-size: 40%;
+    }
+
+  body{
+    padding: 1.2rem;
+  }
+  
+  .header{
+    height: 40vh;
+    clip-path: polygon(0 0,100% 0, 100% 30vh, 0 100% );
+  }
   .column {
     flex: 45%;
     max-width: 45%;
@@ -105,5 +117,13 @@ img:hover{
   .h1, .footer-txt{
     text-align: center;
     width: 80%;
+  }
+
+  .footer{
+    height:20vh;
+  }
+
+  .footer-txt{
+    transform: translate(-50%,0);
   }
 }
