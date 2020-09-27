@@ -58,8 +58,8 @@ html{
 }
 
 .column {
-  flex: 30%;
-  max-width: 30%;
+  flex: 40%;
+  max-width: 40%;
   padding: 0 1rem;
 }
 
@@ -92,4 +92,18 @@ img:hover{
   top:50%;
   left:50%;
   transform: translate(-50%,-50%);
+}
+
+@media (max-width: 600px) {
+  
+  .column {
+    flex: 45%;
+    max-width: 45%;
+  }
+
+
+  .h1, .footer-txt{
+    text-align: center;
+    width: 80%;
+  }
 }
